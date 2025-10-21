@@ -330,5 +330,10 @@ A: It's automatic! After training, `policy.pkl` contains your Q-table. Load it w
 A: `QAgent` works only with discrete states (like FrozenLake). `DiscreteQAgent` can handle continuous states by discretizing them into bins (like CartPole).
 
 ---
+**Result for CartPole-v1 (continuous → discretized)
+<img width="597" height="425" alt="image" src="https://github.com/user-attachments/assets/5f3e89a9-f03f-4227-892a-f247afc6c9bb" />
+
+**Result for FrozenLake-v1 (discrete, grid world)
+<img width="254" height="285" alt="image" src="https://github.com/user-attachments/assets/6bc3aef1-83cf-4bde-9057-1c4a8e7ed608" />
 
 **Happy Learning! 🎉**
