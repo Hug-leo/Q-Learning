@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run training script (no render)",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"d:\\AI\\Q_learning\\Training_the_Agent.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		}
+	]
+}
